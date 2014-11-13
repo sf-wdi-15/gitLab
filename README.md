@@ -33,7 +33,7 @@ Push it to your remote repository.
 Hint: ```git push origin YOUR_BRANCH_NAME```
 
 ##Make a Pull Request to the original repository
-G
+Go to github and make a pull request.
 
 
 
