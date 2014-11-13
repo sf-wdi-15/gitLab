@@ -34,3 +34,8 @@ Hint: ```git push origin YOUR_BRANCH_NAME```
 
 ##Make a Pull Request to the original repository
 G
+
+
+
+##Now that you're done...
+Take a chance to look over this blog post on [merge conflicts in git](http://www.choskim.me/when-do-merge-conflicts-occur-in-git/). The author of the blog post is Cho Kim a WDI instructor here.
