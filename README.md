@@ -25,7 +25,7 @@ Hint: ```git add THE_CHANGES_YOU_MADE```.
 ##Commit the changes
 With all of our changes made, its time to commit them!
 
-Hint: ```git commit -m "PUT YOU MESSAGE HERE."```. I person like to have it start with a present tense action verb. Think of something along the lines of: 'add new aboutme html page'.
+Hint: ```git commit -m "PUT YOU MESSAGE HERE."```. I personally like to have it start with a present tense action verb. Think of something along the lines of: 'add new aboutme html page'.
 
 ##Push them to Github
 Push it to your remote repository.
