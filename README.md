@@ -14,6 +14,9 @@ Lab
 
 
 ### I. Fork this Repository
+
+####ADD GIF SHOWING HOW TO FORK REPO
+
 Find the button at the top of this page labeled **Fork**. When you click it, Github creates a copy of the repository in your own account. You can freely make changes on this copy without affecting the original repository. Clicking on it will 'fork' the repository, giving you a copy of it that's yours.
 
 
@@ -43,7 +46,8 @@ Now that you're on a branch other than master, make an ```about_me.html```. You 
 ### V. Add the Changes
 Once you've finished making any changes you'd like, add those changes to Git. This tells Git that these are changes you'd like to record on your next commit. If you aren't sure what you changed, you can check by using ```git status```.
 
-Hint: ```git add THE_CHANGES_YOU_MADE```.
+##### Hint
+```git add THE_CHANGES_YOU_MADE```.
 
 ### VI. Commit the Changes
 With all of your changes made, it's time to commit them! Commiting adds your changes to the Git log and let's you see what you changed.
@@ -68,6 +72,8 @@ git push origin YOUR_BRANCH_NAME
 ### VI. Make a Pull Request on the Original Repository
 
 Go to github and make a pull request. This is a request to merge your changes into the master branch in the original repository. Your changes can be reviewed, commented on, and updated before they are integrated into the main code.
+
+####ADD GIF SHOWING HOW TO MAKE PR
 
 
 ## Now that you're done...
