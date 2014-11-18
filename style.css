@@ -1,0 +1,24 @@
+ body  {
+	text-align: center;
+	background: url('http://img1.wikia.nocookie.net/__cb20120531223139/practice/images/1/13/Green_Forest_Background.png');
+	background-size: cover;
+	background-position: center;
+	color: red;
+	font-family: helvetica;
+}
+div {
+	text-align: center;
+	font-size: 18px;
+	max-width: 500px;
+      	padding: 20px;
+	 margin: 0 auto;
+}
+header {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	font-family: helvetica;
+}
+figure, figcaption { 
+    display: block;
+}
