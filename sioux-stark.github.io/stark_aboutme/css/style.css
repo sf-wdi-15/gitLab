@@ -1,9 +1,4 @@
-body {
-    background: url(../images/image_v2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
 
 /* .. = inside folder, 1em is equal to the current font size. 
 2em means 2 times the size of the current font.  
@@ -115,51 +110,4 @@ they are scalable. id selectors #id class selector .class  */
                 color:white;
                 font-family: Arial;
             }
-            /*paragraph text*/
             
-            .carouselContainer {
-                width: 100%;
-                display: inline-block;
-                margin-left: 3em;
-                height:30em;
-                
-            }
-            
-                #photoContainer {
-                    display: inline-block;
-                    width:35em;
-                    
-                }
-                    #currentPhoto {
-                    height: 26em;
-                    margin-left: auto;
-                    margin-right: auto;
-                    
-                    }
-                
-                #leftPic {
-                   display: inline-block; 
-                   margin-left: 17em;
-                   height:5em;
-                   margin-top: 11em;
-                   position: relative; bottom:11em;
-                }
-                
-                
-                
-                #rightPic {
-                    
-                     display: inline-block;
-                     height: 5em;
-                     position: relative; bottom:11em;
-                }
-                
-                .carouselButton:hover {
-                    background-color: rgba(102,153,102,.4);
-                    
-                }
-                
-                    .picNav {
-                      
-                    
-                    }
