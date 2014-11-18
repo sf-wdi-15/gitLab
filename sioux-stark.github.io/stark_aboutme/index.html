@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- link to stylesheet -->
+    <script src="js/jquery.js"></script>
+    <script src="js/pictureCarousel.js"></script>
+    <!-- link to js pages -->
+</head>
+
+
+
+<body>
+    <section id="pageContainer" class="pageContainer">
+        <!-- content wrapper, side bar would be in front -->
+          <article id="headerImageContainer" class="headerImageContainer">
+            <!--header container, image in header-->
+            <!--article instead of div, b/c html5, article that belongs to section. 2 common attributes ids and classes, ids need to be unique. manipulate html elements based on css selectors -->
+
+          <img src="images/IMG_1785_v2.JPG" />
+            <!--cite image-->
+          </article>  
+
+          <header id="pageHeaderContainer" class="pageHeaderContainer">
+            <article id="headerTextContainer" class="headerTextContainer">
+                <h1>Sandra Stark - About Me</h1>
+            </article>
+            <!--header container, text container-->
+          <cite> Redwood Forest </cite>
+
+        </header>
+
+         <section id="contentContainer" class="contentContainer">
+            <article id="contentImageContainter" class="contentImageContainer">
+                <img src="images/IMG_0529.JPG" />
+                <!--image of myself on right-->
+                
+            </article>
+            
+            <aside id="asideTextContainer" class="asideTextContainer">
+                <ul id="aboutMeList" class="aboutMeList">
+                    <li>Born in Wisconsin, live in San Francisco</li>
+                    <li>Education: Maryland Institute, College of Art - Furniture Design, Concentration Video</li>
+                    <li>My Business: Stark Design & Teleprompting</li>
+                    <li>Interests/Loves: Learning, Agriculture and Farming, Staining Wood, Old Barns, Piano Benches & Violin Cases, Fonts, Movement & Dance, Riding Motos in Rwanda, DIY Culture, Code For America, Documentaries & Foreign Films, Yoga Ropes & Back Benders, Inspirational Speeches, My Border Collie Otis, NPR: This American Life & Planet Money, Working In Teams, Ubuntu, And My Five Nieces.   </li>
+                    <!--aside left-->
+                    
+                                  
+                </ul>
+                
+            </aside>
+            
+            <p id="contentTextContainer" class="contentTextContainer">
+                I love traveling and culture. I am actually building this in Kuala Lumpur, Malaysia. <br>It's my first time in Asia! My senior thesis artwork can be found at <a href="http://sandystark.net" target="_blank">sandystark</a>
+                <br>
+                The best way to reach me now, is through email, sandra@sandrstark.net
+                
+                <!--paragraph, comes after aside-->
+                
+            </p>
+            
+            <article id="carouselContainer" class="carouselContainer">
+                <div id="leftPic" class="carouselButton"><img class="picNav" src="images/leftPic.png" /></div>
+                <div id="photoContainer"><img id="currentPhoto" /></div>
+                <div id="rightPic" class="carouselButton"><img class="picNav" src="images/rightPic.png" /></div>
+            </article>
+        
+        </section>
+        
+        
+        </section> 
+
+</body>
+<script>
+     pictureSlider();    
+</script>
+</html>

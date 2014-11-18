@@ -1,0 +1,165 @@
+body {
+    background: url(../images/image_v2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* .. = inside folder, 1em is equal to the current font size. 
+2em means 2 times the size of the current font.  
+they are scalable. id selectors #id class selector .class  */
+    
+
+    .pageContainer {
+        width: 85em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+        background: rgba(0,0,0,.3);
+    }
+
+    
+        .pageHeaderContainer {
+            display: block;
+            width: 100%;
+            height: 15em;
+         }
+
+            
+            .headerTextContainer {
+                display: inline-block;
+                width: 56em;
+                margin-top: 2em;
+                margin-left: 2em;
+                float: left;
+                
+            }
+            
+            .headerTextContainer h1{
+                    font-size: 36pt;
+                    margin-left: auto;
+                    margin-right: auto;
+                    color:white;
+                    font-family: Arial;  
+                }
+        
+
+            .headerImageContainer {
+                display: inline-block;
+                width: 28em;
+                float:right;
+            }
+            
+                .headerImageContainer img {
+
+                    height:14em;
+                    width: 14em;
+                    float:right;
+                    margin-top: 2em;
+                    border-radius: 5em;
+                    margin-right: 3em;   
+                }
+                /*cite image*/
+        cite {
+            float:right;
+            margin-right: 8em;
+            margin-left:3em;
+            margin-top: 2em;
+            font-family: Arial;
+            color:white;
+            font-size: 10pt;
+        }
+
+            /*hard code*/
+            
+            
+        .contentContainer {
+            width:100%;
+            margin-top: 3em;
+            
+            
+        }
+        
+            .contentImageContainer {
+                display: inline-block; 
+                margin: 3em;
+                width: 22em;
+                float: left;
+            }
+            
+                .contentImageContainer img{
+                    
+                    height:20em;
+                    width: 25em;
+                    float: left;
+                }
+            
+            /*properties of image*/
+            
+            .asideTextContainer {
+                
+                width: 25em;
+                margin-left: 15em;
+                margin-right: auto;
+                margin-top:  6em;
+                font-size: 25pt;
+                color:white;
+                font-family: Arial; 
+            }
+            /*properties of text*/
+            
+            .contentTextContainer {
+                width: 100%;
+                margin-left: 2em; 
+                font-size: 25pt;
+                color:white;
+                font-family: Arial;
+            }
+            /*paragraph text*/
+            
+            .carouselContainer {
+                width: 100%;
+                display: inline-block;
+                margin-left: 3em;
+                height:30em;
+                
+            }
+            
+                #photoContainer {
+                    display: inline-block;
+                    width:35em;
+                    
+                }
+                    #currentPhoto {
+                    height: 26em;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                    }
+                
+                #leftPic {
+                   display: inline-block; 
+                   margin-left: 17em;
+                   height:5em;
+                   margin-top: 11em;
+                   position: relative; bottom:11em;
+                }
+                
+                
+                
+                #rightPic {
+                    
+                     display: inline-block;
+                     height: 5em;
+                     position: relative; bottom:11em;
+                }
+                
+                .carouselButton:hover {
+                    background-color: rgba(102,153,102,.4);
+                    
+                }
+                
+                    .picNav {
+                      
+                    
+                    }
